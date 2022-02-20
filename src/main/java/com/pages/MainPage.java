@@ -23,6 +23,7 @@ public class MainPage {
     public void searchFor(String text) {
         searchForField.sendKeys(text);
         searchForField.submit();
+
     }
 
     public void goToTodayDeals() {
